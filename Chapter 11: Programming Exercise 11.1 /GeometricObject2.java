@@ -31,10 +31,12 @@ public abstract class GeometricObject {
   public abstract double GetPerimeter();
 
   // Abstract main method class
-  public class AbstractColor {
+  public class ColorGeometricObject {
     public static void main (String[] args) {
-      System.out.println(getArea());
-      System.out.println(getPerimeter());
-      System.out.println();
+      GeometricObject square = new square(4.0, "light blue", true);
+      System.out.println("Area: " + square.getArea());
+      System.out.println("Perimeter: " + square.getPerimeter());
+      System.out.println("Color: " + square.getColor());
+      System.out.println("Filled: " + square.isFilled());
     } 
 }
