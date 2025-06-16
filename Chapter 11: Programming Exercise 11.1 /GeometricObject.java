@@ -9,21 +9,21 @@ public class Triangle extends GeometricObject {
     this.side2 = side2;
     this.side3 = side3;
   }
-  // Construct Side1 method
+  // Construct Side1 triangle method
   public double getSide1() {
     return side1;
   }
-  // Construct Side2 method
+  // Construct Side2 triangle method
   public double getSide2() {
     return side2;
   }
-  // Construct Side3 method
+  // Construct Side3 triangle method
   public double getSide3() {
     return side3;
   }
   public double getArea() {
     double s = (side1 + side2 + side3) / 2;
-    return Math.sprt(s * (s - side1) * (s - side2) * (s - side3));
+    return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
   }
   public double getPerimeter() {
     return side1 + side2 + side3;
