@@ -34,8 +34,8 @@ public abstract class GeometricObject {
   public class ColorGeometricObject {
     public static void main (String[] args) {
       GeometricObject square = new square(4.0, "light blue", true);
-      System.out.println("Area: " + square.getArea());
-      System.out.println("Perimeter: " + square.getPerimeter());
+      System.out.println("Area: " + square.GetArea());
+      System.out.println("Perimeter: " + square.GetPerimeter());
       System.out.println("Color: " + square.getColor());
       System.out.println("Filled: " + square.isFilled());
     } 
