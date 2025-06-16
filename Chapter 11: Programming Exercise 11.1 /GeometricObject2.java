@@ -1,5 +1,5 @@
 public abstract class GeometricObject {
-  private String color = "light blue";
+  private String color = "light blue"; // You can choose any type of color
   private boolean filled;
 
   // Default constructor
