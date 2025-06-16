@@ -30,7 +30,7 @@ public abstract class GeometricObject {
   public abstract double GetArea();
   public abstract double GetPerimeter();
 
-  // Abstract main method class
+  // Color main method class
   public class ColorGeometricObject {
     public static void main (String[] args) {
       GeometricObject square = new square(4.0, "light blue", true);
