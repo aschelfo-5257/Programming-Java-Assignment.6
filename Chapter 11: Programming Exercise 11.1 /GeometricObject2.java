@@ -29,4 +29,12 @@ public abstract class GeometricObject {
   // Abstract method by area and perimeter
   public abstract double GetArea();
   public abstract double GetPerimeter();
+
+  // Abstract main method class
+  public class AbstractColor {
+    public static void main (String[] args) {
+      System.out.println(getArea());
+      System.out.println(getPerimeter());
+      System.out.println();
+    } 
 }
